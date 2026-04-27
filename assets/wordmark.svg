@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="80" viewBox="0 0 400 80" role="img" aria-label="Noorani">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500,30&amp;display=swap');
+    .wm { font-family: 'Fraunces', Georgia, serif; font-weight: 500; font-size: 56px; font-variation-settings: "opsz" 30, "SOFT" 30; letter-spacing: -0.01em; fill: #1A1712; }
+  </style>
+  <text x="10" y="56" class="wm">Noorani</text>
+</svg>
