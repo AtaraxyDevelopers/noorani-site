@@ -1,19 +1,19 @@
 (function () {
   const URLS = {
     windows: {
-      url: 'https://github.com/WaleedNaeem/noorani-browser/releases/download/v1.0.0-alpha/Noorani-Browser-Setup-1.0.0-alpha.exe',
+      url: 'https://github.com/AtaraxyDevelopers/noorani-browser/releases/latest/download/Noorani-Browser-Setup.exe',
       size: '95 MB',
       label: 'Windows',
       ext: '.exe'
     },
     mac: {
-      url: 'https://github.com/WaleedNaeem/noorani-browser/releases/download/v1.0.0-alpha/Noorani-Browser-1.0.0-alpha.dmg',
+      url: 'https://github.com/AtaraxyDevelopers/noorani-browser/releases/latest/download/Noorani-Browser.dmg',
       size: '108 MB',
       label: 'macOS',
       ext: '.dmg'
     },
     linux: {
-      url: 'https://github.com/WaleedNaeem/noorani-browser/releases/download/v1.0.0-alpha/Noorani-Browser-1.0.0-alpha.AppImage',
+      url: 'https://github.com/AtaraxyDevelopers/noorani-browser/releases/latest/download/Noorani-Browser.AppImage',
       size: '114 MB',
       label: 'Linux',
       ext: '.AppImage'
@@ -46,8 +46,8 @@
             </a>
           `).join('')}
         </div>
-        <p class="download-advisory">Unsigned alpha build. Windows: you may see a SmartScreen warning — click "More info" → "Run anyway". macOS: right-click the .dmg and choose Open to bypass Gatekeeper.</p>
-        <p class="download-version">Version 1.0.0-alpha · Released April 2026</p>
+        <p class="download-advisory">Windows: you may see a SmartScreen warning on first launch — click "More info" → "Run anyway". macOS: right-click the .dmg and choose Open to bypass Gatekeeper.</p>
+        <p class="download-version">Version 1.0.0 · Released July 2026</p>
       `;
       return;
     }
@@ -66,8 +66,8 @@
         ·
         <a href="${URLS[others[1]].url}" data-platform="${others[1]}" target="_blank" rel="noopener">${URLS[others[1]].label}</a>
       </p>
-      <p class="download-advisory">Unsigned alpha build. Windows: you may see a SmartScreen warning — click "More info" → "Run anyway". macOS: right-click the .dmg and choose Open to bypass Gatekeeper.</p>
-      <p class="download-version">Version 1.0.0-alpha · Released April 2026</p>
+      <p class="download-advisory">Windows: you may see a SmartScreen warning on first launch — click "More info" → "Run anyway". macOS: right-click the .dmg and choose Open to bypass Gatekeeper.</p>
+      <p class="download-version">Version 1.0.0 · Released July 2026</p>
     `;
   }
 
