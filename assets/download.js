@@ -47,7 +47,7 @@
           `).join('')}
         </div>
         <p class="download-advisory">Windows: you may see a SmartScreen warning on first launch — click "More info" → "Run anyway". macOS: right-click the .dmg and choose Open to bypass Gatekeeper.</p>
-        <p class="download-version">Version 1.0.0 · Released July 2026</p>
+        <p class="download-version">Version 1.0.1 · Released July 2026</p>
       `;
       return;
     }
@@ -67,7 +67,7 @@
         <a href="${URLS[others[1]].url}" data-platform="${others[1]}" target="_blank" rel="noopener">${URLS[others[1]].label}</a>
       </p>
       <p class="download-advisory">Windows: you may see a SmartScreen warning on first launch — click "More info" → "Run anyway". macOS: right-click the .dmg and choose Open to bypass Gatekeeper.</p>
-      <p class="download-version">Version 1.0.0 · Released July 2026</p>
+      <p class="download-version">Version 1.0.1 · Released July 2026</p>
     `;
   }
 
