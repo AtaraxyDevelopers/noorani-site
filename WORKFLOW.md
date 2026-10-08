@@ -1,7 +1,9 @@
-# Noorani site — how to edit and deploy
+# Website contribution workflow
 
-1. **Source lives here:** `C:\Users\11 TRDs\Documents\noorani-site\` (canonical local repo, never use Temp).
-2. **Edit:** open the `.html` file you want to change in any editor, save in place, and check `git status`.
-3. **Commit:** `git add -A && git commit -m "Describe the change"` — always commit before deploying.
-4. **Deploy:** `scp -P 65002 -i ~/.ssh/hostinger_kpi <changed-files>.html u606150776@93.127.220.190:~/domains/nooranibrowser.com/public_html/`
-5. **Verify:** `curl -s -o /dev/null -w "%{http_code}\n" https://nooranibrowser.com/<path>` should return 200.
+1. Clone `https://github.com/AtaraxyDevelopers/noorani-site.git` into a normal working directory.
+2. Make a focused change and inspect `git diff` before committing.
+3. Preview the affected pages with a local static server; check links, keyboard access, and responsive layouts.
+4. Open a pull request explaining the change and how it was checked.
+5. Maintainers review and deploy through the existing private deployment process.
+
+Public documentation should not include server connection details, private filesystem paths, credentials, or customer data. Use the private operational runbook for production deployment and recovery.
